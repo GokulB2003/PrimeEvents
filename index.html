@@ -14,14 +14,17 @@
 
 <body>
     <div class="container-fluid p-0">
-        <div class="row">
-            <div class="col-md-12">
+        <!-- <div class="row"> -->
+            <!-- <div class="col-md-12"> -->
                 <nav class="navbar oswald-font navbar-expand-lg sticky-top shadow bg-secondary ">
-                    <img src="./Images/logo1.png" class="text-danger logo-glow text-black  "
+                   
+                    <div class="container-fluid ">
+                        <a class="navbar-brand fs-md-4 text-dark fw-bolder logo mt-lg-2" href="#">
+                             <img src="./Images/logo1.png" class="text-danger logo-glow text-black  mb-lg-2"
                         style="width: 90px; height:70px; border-radius:3px ;color:rgb(195, 18, 18); "
                         class="rounded-circle text-center ms-m-5">
-                    <div class="container-fluid ">
-                        <a class="navbar-brand fs-md-4 text-dark fw-bolder logo" href="#">PrimeEvents</a>
+
+                            <span class="Brand-name align-items-center mt-lg-3">PrimeEvents</span></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +58,12 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link fw-bolder me-md-3 text-white newli" href="./gallery.html">Gallery</a>
+                                    <a class="nav-link fw-bolder me-md-3 text-white newli"
+                                        href="./gallery.html">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bolder me-md-3 text-white newli"
+                                        href="./ContactUs.html">Contact Us</a>
                                 </li>
                                 <li>
                                     <button type="button align-items-md-center" class="btn btn-outline-light">Book
@@ -65,25 +73,36 @@
                         </div>
                     </div>
                 </nav>
-            </div>
+            <!-- </div> -->
 
-        </div>
+        <!-- </div> -->
         <div class="row">
             <div class="col-12">
                 <div class="back-img">
                     <div class="middle-text">
+
                         <span>
                             <h2>Get the best deals<span class="text-warning "> Always within a Budget</span></h2>
                         </span>
                         <span>
                             <h3>Search, book with confidence, and relax while we handle the rest..Enjoy!</h3>
                         </span>
-                        <div class="buttons d-flex g-4 justify-content-center">
-                            <button type="button"
-                                class="btn btn-outline-warning bg-dark text-center text-warning m-">register</button>
-                            <button type="button"
-                                class="btn btn-outline-dark text-warning ms-md-1 w-25 fs-md-5 fw-bolder">Login</button>
-                        </div>
+
+
+                        <div class="buttons d-flex gap-1 justify-content-center" >
+  <button type="button"  class="btn hero-btn fw-bold">
+    <a href="signUp.html" class=" text-decoration-none">
+  Register
+</a>
+  </button>
+
+  <button type="button" class="btn hero-btn fw-bold">
+      <a href="signUp.html" class=" text-decoration-none">
+  Login
+</a>
+  </button>
+</div>
+
                     </div>
                 </div>
             </div>
@@ -91,9 +110,9 @@
 
         <!-- 2nd section  -->
         <section class="">
-            <div class="row">
+            <div class="row mt-lg-5" style="overflow-x: hidden;">
                 <div class="col-12 text-dark d-flex flex-column align-items-md-center heading">
-                    <h2 class="fw-bold text-dark" >EventKeepers Services</h2>
+                    <h2 class="fw-bold text-dark ">EventKeepers Services</h2>
                     <h4 class="text-muted">Effortless Event Booking Made Simple</h4>
                 </div>
             </div>
@@ -179,11 +198,11 @@
             <div class="row g-4 align-items-stretch">
 
                 <!-- left section -->
-                <div class="col-lg-6 col-md-12 city-presence">
-                    <div class="border  p-5 d-flex flex-column justify-content-center">
-                        <h2 class="fw-bold text-center">OUR CITY PRESENCE</h2>
-                        <p class="fw-semibold text-center">15 Countries & 195 Cities</p>
-                        <img src="./Images/map.png" alt="">
+                <div class="col-lg-6 col-md-12 city-presence" >
+                    <div class="border d-flex flex-column justify-content-center pt-lg-5" style="height: 500px;">
+                        <h2 class="fw-bold text-center pt-lg-5">OUR CITY PRESENCE</h2>
+                        <p class="fw-semibold text-center ">15 Countries & 195 Cities</p>
+                        <img src="./Images/map.png" class="pt-lg-3" alt="">
                     </div>
                 </div>
 
@@ -191,11 +210,11 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="row g-3">
 
-                       
+
                         <div class="col-lg-6 shadow">
                             <div class="card  text-center">
                                 <img src="./Images/china.png"
-                                    style="height: 250px; font-family: Oswald, sans-serif; object-fit: cover;" ;
+                                    style="height: 250px; font-family: Oswald, sans-serif; object-fit: cover; border-top-left-radius: 5px; border-top-right-radius: 5px;" ;
                                     class="img-fluid" alt="">
                                 <div class="card-body">
                                     <h6 class="fw-bold text-center">China</h6>
@@ -203,25 +222,24 @@
                             </div>
                         </div>
 
-                        
+
                         <div class="col-lg-6 shadow">
                             <div class="card text-center shadow">
                                 <img src="./Images/Delhi.png" class="image-fluid" style="height: 250px;"
                                     style="font-family: Oswald, sans-serif" ; class="sticky-top rounded-top" alt="">
-                                <div class="card-body" style="font-family: Oswald, sans-serif; object-fit: cover;" ;>
+                                <div class="card-body" style="font-family: Oswald, sans-serif; object-fit: cover; border-top-left-radius: 5px; border-top-right-radius: 5px;" ;>
                                     <h6 class="fw-bold text-center">Delhi</h6>
                                 </div>
                             </div>
                         </div>
 
 
-                        
+
                         <div class="col-lg-6 mt-lg-4 shadow">
                             <div class="card ">
                                 <img src="./Images/pune.png" style="height: 250px; " class="img-fluid rounded-top"
                                     alt="">
-                                <div class="card-body"
-                                    style="font-family: Oswald, sans-serif; object-fit: cover;" ;>
+                                <div class="card-body" style="font-family: Oswald, sans-serif; object-fit: cover;" ;>
                                     <h6 class="fw-bold text-center">Pune</h6>
                                 </div>
                             </div>
@@ -231,16 +249,12 @@
                             <div class="card">
                                 <img src="./Images/mumbainew.jpg" style="height: 250px; " class="img-fluid rounded-top"
                                     alt="">
-                                <div class="card-body"
-                                    style="font-family: Oswald, sans-serif;";>
+                                <div class="card-body" style="font-family: Oswald, sans-serif;" ;>
                                     <h6 class="fw-bold text-center">Mumbai</h6>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                   
-
                 </div>
 
             </div>
@@ -248,6 +262,52 @@
 
     </div>
     </div>
+    <div class="row m-lg-2">
+        <div class="col-lg-12">
+            <h1 class="text-center text-bolder text-secondary text-bolder py-3">Brand Partners</h1>
+        </div>
+    </div>
+
+
+  <div class="row g-2">
+
+  <div class="col-lg-3">
+    <div class="card brand-card text-center m-lg-4">
+      <img src="./Images/Rio1.png" class="brand-img" alt="Rio">
+      <div class="card-body">
+        <h6 class="fw-bold">Rio Events</h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3">
+    <div class="card brand-card text-center m-lg-4">
+      <img src="./Images/Alled.png" class="brand-img" alt="Alled">
+      <div class="card-body">
+        <h6 class="fw-bold">Alled Group</h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3">
+    <div class="card brand-card text-center m-lg-4">
+      <img src="./Images/salar.png" class="brand-img" alt="Salar">
+      <div class="card-body">
+        <h6 class="fw-bold">Salar Events</h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3">
+    <div class="card brand-card text-center m-lg-4">
+      <img src="./Images/epicEvents.png" class="brand-img" alt="Salar">
+      <div class="card-body">
+        <h6 class="fw-bold">Epic Events</h6>
+      </div>
+    </div>
+  </div>
+
+</div>
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
