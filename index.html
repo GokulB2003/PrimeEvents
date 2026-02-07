@@ -7,21 +7,18 @@
     <title>Prime Events</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
-    <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0 m-0">
         <!-- <div class="row"> -->
         <!-- <div class="col-md-12"> -->
         <!-- header section -->
-        <nav class="navbar oswald-font navbar-expand-lg sticky-top shadow bg-secondary ">
+        <nav class="navbar oswald-font navbar-expand-lg sticky-top shadow bg-secondary">
 
             <div class="container-fluid ">
                 <a class="navbar-brand fs-md-4 text-dark fw-bolder logo mt-lg-2" href="#">
@@ -64,7 +61,7 @@
                             <a class="nav-link fw-bolder me-md-3 text-white newli" href="./gallery.html">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-bolder me-md-3 text-white newli" href="./ContactUs.html">Contact
+                            <a class="nav-link fw-bolder me-md-3 text-white newli" href="contact.html">Contact
                                 Us</a>
                         </li>
                         <li>
@@ -79,13 +76,14 @@
 
         <!-- </div> -->
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 m-0">
                 <div class="back-img">
                     <div class="middle-text">
 
-                        <span>
-                            <h2>Get the best deals<span class="text-warning "> Always within a Budget</span></h2>
-                        </span>
+                        <h2 class="hero-title">
+                            Get the best deals
+                            <span class="text-warning d-block">Always within a Budget</span>
+                        </h2>
                         <span>
                             <h3>Search, book with confidence, and relax while we handle the rest..Enjoy!</h3>
                         </span>
@@ -113,7 +111,7 @@
         <!-- 2nd section  -->
         <section class="">
             <div class="row mt-lg-5" style="overflow-x: hidden;" id="servicess">
-                <div class="col-12 text-dark d-flex flex-column align-items-md-center heading">
+                <div class="col-12 m-0 text-dark d-flex flex-column align-items-md-center heading">
                     <h2 class="fw-bold text-dark ">EventKeepers Services</h2>
                     <h4 class="text-muted">Effortless Event Booking Made Simple</h4>
                 </div>
@@ -184,10 +182,12 @@
                         <div class="service-card shadow">
                             <img src="./Images/Invitationmobile.jpg" class="img-fluid"
                                 style="height: 260px; width:100%;  object-fit: cover;" alt="">
-                            <div class="overlay">
+
+                            <a href="invitation.html"><div class="overlay">
                                 <h5 class="text-bolder">Invitations</h5>
                                 <p>Digital invitations (WhatsApp / Email)</p>
                             </div>
+                            </a>
                         </div>
                     </div>
 
@@ -242,11 +242,9 @@
                             </div>
                         </div>
 
-
-
                         <div class="col-lg-6 mt-lg-4 shadow">
                             <div class="card ">
-                                <img src="./Images/pune.png" style="height: 250px; " class="img-fluid rounded-top"
+                                <img src="./Images/pune.png" style="min-height: 250px; " class="img-fluid rounded-top"
                                     alt="">
                                 <div class="card-body" style="font-family: Oswald, sans-serif; object-fit: cover;" ;>
                                     <h6 class="fw-bold text-center">Pune</h6>
@@ -256,7 +254,7 @@
 
                         <div class="col-lg-6 mt-lg-4 shadow">
                             <div class="card">
-                                <img src="./Images/mumbainew.jpg" style="height: 250px; " class="img-fluid rounded-top"
+                                <img src="./Images/mumbainew.jpg" style="min-height: 250px; " class="img-fluid rounded-top"
                                     alt="">
                                 <div class="card-body" style="font-family: Oswald, sans-serif;" ;>
                                     <h6 class="fw-bold text-center">Mumbai</h6>
@@ -269,215 +267,219 @@
             </div>
         </div>
 
-        <div class="container-fluid">
+        <!-- circle Image -->
+        <div class="container-fluid circle m-0 h-50">
             <div class="row">
-                <div class="col-12">
-                    <img src="./Images/circle.png" alt="">
-                </div>
-            </div>
-        </div>
-    
-    <div class="row m-lg-2">
-        <div class="col-lg-12">
-            <h1 class="text-center text-bolder text-secondary text-bolder py-3">Brand Partners</h1>
-        </div>
-    
-
-
-    <div class="row g-2 mb-3">
-
-        <div class="col-lg-3">
-            <div class="card brand-card text-center m-lg-4">
-                <img src="./Images/Rio1.png" class="brand-img" alt="Rio">
-                <div class="card-body">
-                    <h6 class="fw-bold">Rio Events</h6>
+                <div class="h-3">
+                    <img src="./Images/circle.png" alt="primeEvent work">
                 </div>
             </div>
         </div>
 
-        <div class="col-lg-3">
-            <div class="card brand-card text-center m-lg-4">
-                <img src="./Images/Alled.png" class="brand-img" alt="Alled">
-                <div class="card-body">
-                    <h6 class="fw-bold">Alled Group</h6>
-                </div>
+        <div class="row m-lg-2">
+            <div class="col-lg-12">
+                <h1 class="text-center text-bolder text-secondary text-bolder py-3">Brand Partners</h1>
             </div>
-        </div>
 
-        <div class="col-lg-3">
-            <div class="card brand-card text-center m-lg-4">
-                <img src="./Images/salar.png" class="brand-img" alt="Salar">
-                <div class="card-body">
-                    <h6 class="fw-bold">Salar Events</h6>
-                </div>
-            </div>
-        </div>
 
-        <div class="col-lg-3">
-            <div class="card brand-card text-center m-lg-4">
-                <img src="./Images/epic.png" class="brand-img" alt="Salar">
-                <div class="card-body">
-                    <h6 class="fw-bold">Epic Events</h6>
-                </div>
-            </div>
-        </div>
 
-    </div>
- </div>
-  <div class="row mt-3">
-            <div class="col-12">
-                <!-- Footer -->
-                <footer class=" text-center">
-                    <!-- Grid container -->
-                    <div class="container p-4">
-                        <!-- Section: Social media -->
-                        <section class="mb-4">
-                            <!-- Facebook -->
-                            <a data-mdb-ripple-init class="btn btn-floating m-1" href="#!" role="button"><i
-                                    class="fab fa-facebook-f text-white"></i></a>
+            <div class="row g-2 mb-3">
 
-                            <!-- Twitter -->
-                            <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"><i
-                                    class="fab fa-twitter text-white"></i></a>
-
-                            <!-- Google -->
-                            <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"><i
-                                    class="fab fa-google text-white"></i></a>
-
-                            <!-- Instagram -->
-                            <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"><i
-                                    class="fab fa-instagram text-white"></i></a>
-
-                            <!-- Linkedin -->
-                            <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"><i
-                                    class="fab fa-linkedin-in text-white"></i></a>
-
-                            <!-- Github -->
-                            <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"><i
-                                    class="fab fa-github text-white"></i></a>
-                        </section>
-                        <!-- Section: Social media -->
-
-                        <!-- Section: Form -->
-                        <section class="">
-
-                        </section>
-                        <!-- Section: Form -->
-
-                        <!-- Section: Text -->
-                        <section class="mb-4">
-                            <p>
-                                PrimeEvents is a professional event planning and management company dedicated to
-                                creating memorable experiences. From elegant weddings to high-impact corporate events,
-                                we bring creativity, precision, and passion to every celebration. Our goal is simple —
-                                deliver stress-free events that exceed expectations.
-                            </p>
-                        </section>
-                        <!-- Section: Text -->
-
-                        <!-- Section: Links -->
-                        <section class="">
-                            <!--Grid row-->
-                            <div class="row">
-                                <!--Grid column-->
-                                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                    <h5 class="text-uppercase">Links</h5>
-
-                                    <ul class="list-unstyled mb-0">
-                                        <li>
-                                            <a class="text-white" href="index.html">Home</a>
-                                        </li>
-                                        <li>
-                                            <a class="text-white" href="about.html">About</a>
-                                        </li>
-                                        <!-- <li>
-                                            <a class="text-white" href="#!">Link 1</a>
-                                        </li>
-                                        <li>
-                                            <a class="text-white" href="#!">Link 1</a>
-                                        </li> -->
-                                    </ul>
-                                </div>
-                                <!--Grid column-->
-
-                                <!--Grid column-->
-                                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                    <h5 class="text-uppercase">Links</h5>
-
-                                    <ul class="list-unstyled mb-0">
-                                        <li>
-                                            <a class="text-white" href="contact.html">ContactUs</a>
-                                        </li>
-                                        <li>
-                                            <a class="text-white" href="signUp.html">sign-Up</a>
-                                        </li>
-                                        <!-- <li>
-                                            <a class="text-white" href="#!">Link 1</a>
-                                        </li>
-                                        <li>
-                                            <a class="text-white" href="#!">Link 1</a>
-                                        </li> -->
-                                    </ul>
-                                </div>
-                                <!--Grid column-->
-
-                                <!--Grid column-->
-                                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                    <h5 class="text-uppercase">Links</h5>
-
-                                    <ul class="list-unstyled mb-0">
-                                        <li>
-                                            <a class="text-white" href="login-form.html">Login</a>
-                                        </li>
-                                        <li>
-                                            <a class="text-white" href="gallery.html">Gallery</a>
-                                        </li>
-                                        <!-- <li>
-                                            <a class="text-white" href="#!">Link 1</a>
-                                        </li>
-                                        <li>
-                                            <a class="text-white" href="#!">Link 1</a>
-                                        </li> -->
-                                    </ul>
-                                </div>
-                                <!--Grid column-->
-
-                                <!--Grid column-->
-                                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                    <h5 class="text-uppercase">Links</h5>
-
-                                    <ul class="list-unstyled mb-0">
-                                        <li>
-                                            <a class="text-white" href="#map">Venues</a>
-                                        </li>
-                                        <li>
-                                            <a class="text-white" href="#servicess">services</a>
-                                        </li>
-                                        <!-- <li>
-                                            <a class="text-white" href="#!">Link 1</a>
-                                        </li>
-                                        <li>
-                                            <a class="text-white" href="#!">Link 1</a>
-                                        </li> -->
-                                    </ul>
-                                </div>
-                                <!--Grid column-->
-                            </div>
-                            <!--Grid row-->
-                        </section>
-                        <!-- Section: Links -->
+                <div class="col-lg-3 col-md-6 mt-md-3">
+                    <div class="card brand-card text-center m-lg-4">
+                        <img src="./Images/Rio1.png" class="brand-img" alt="Rio">
+                        <div class="card-body">
+                            <h6 class="fw-bold">Rio Events</h6>
+                        </div>
                     </div>
-                    <!-- Grid container -->
+                </div>
 
-                    <!-- Copyright -->
-                    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-                        © 2020 Copyright:
-                        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">PrimeEvents.com</a>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card brand-card text-center m-lg-4">
+                        <img src="./Images/Alled.png" class="brand-img" alt="Alled">
+                        <div class="card-body">
+                            <h6 class="fw-bold">Alled Group</h6>
+                        </div>
                     </div>
-                    <!-- Copyright -->
-                </footer>
-                <!-- Footer -->
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card brand-card text-center m-lg-4">
+                        <img src="./Images/salar.png" class="brand-img" alt="Salar">
+                        <div class="card-body">
+                            <h6 class="fw-bold">Salar Events</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card brand-card text-center m-lg-4">
+                        <img src="./Images/epic.png" class="brand-img" alt="Salar">
+                        <div class="card-body">
+                            <h6 class="fw-bold">Epic Events</h6>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="container-fluid">
+
+            <div class="row mt-3">
+                <div class="col-12 p-0">
+                    <!-- Footer -->
+                    <footer class=" text-center">
+
+                        <div class="container p-4">
+
+                            <section class="mb-4">
+                                <!-- Facebook -->
+                                <a data-mdb-ripple-init class="btn btn-floating m-1" href="#!" role="button"><i
+                                        class="fab fa-facebook-f text-white"></i></a>
+
+                                <!-- Twitter -->
+                                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!"
+                                    role="button"><i class="fab fa-twitter text-white"></i></a>
+
+
+                                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!"
+                                    role="button"><i class="fab fa-google text-white"></i></a>
+
+                                <!-- Instagram -->
+                                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!"
+                                    role="button"><i class="fab fa-instagram text-white"></i></a>
+
+                                <!-- Linkedin -->
+                                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!"
+                                    role="button"><i class="fab fa-linkedin-in text-white"></i></a>
+
+                                <!-- Github -->
+                                <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!"
+                                    role="button"><i class="fab fa-github text-white"></i></a>
+                            </section>
+                            <!-- Section: Social media -->
+
+                            <!-- Section: Form -->
+                            <section class="">
+
+                            </section>
+                            <!-- Section: Form -->
+
+                            <!-- Section: Text -->
+                            <section class="mb-4">
+                                <p>
+                                    PrimeEvents is a professional event planning and management company dedicated to
+                                    creating memorable experiences. From elegant weddings to high-impact corporate
+                                    events,
+                                    we bring creativity, precision, and passion to every celebration. Our goal is simple
+                                    —
+                                    deliver stress-free events that exceed expectations.
+                                </p>
+                            </section>
+                            <!-- Section: Text -->
+
+                            <!-- Section: Links -->
+                            <section class="">
+                                <!--Grid row-->
+                                <div class="row d-sm-flex">
+                                    <!--Grid column-->
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-md-0">
+                                        <h5 class="text-uppercase">Links</h5>
+
+                                        <ul class="list-unstyled mb-0">
+                                            <li>
+                                                <a class="text-white" href="index.html">Home</a>
+                                            </li>
+                                            <li>
+                                                <a class="text-white" href="about.html">About</a>
+                                            </li>
+                                            <!-- <li>
+                                            <a class="text-white" href="#!">Link 1</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-white" href="#!">Link 1</a>
+                                        </li> -->
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-md-0">
+                                        <h5 class="text-uppercase">Links</h5>
+
+                                        <ul class="list-unstyled mb-0">
+                                            <li>
+                                                <a class="text-white" href="contact.html">ContactUs</a>
+                                            </li>
+                                            <li>
+                                                <a class="text-white" href="signUp.html">sign-Up</a>
+                                            </li>
+                                            <!-- <li>
+                                            <a class="text-white" href="#!">Link 1</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-white" href="#!">Link 1</a>
+                                        </li> -->
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-md-0">
+                                        <h5 class="text-uppercase">Links</h5>
+
+                                        <ul class="list-unstyled mb-0">
+                                            <li>
+                                                <a class="text-white" href="login-form.html">Login</a>
+                                            </li>
+                                            <li>
+                                                <a class="text-white" href="gallery.html">Gallery</a>
+                                            </li>
+                                            <!-- <li>
+                                            <a class="text-white" href="#!">Link 1</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-white" href="#!">Link 1</a>
+                                        </li> -->
+                                        </ul>
+                                    </div>
+                                    <!--Grid column-->
+
+                                    <!--Grid column-->
+                                    <div class="col-lg-3 col-md-3 mb-4 mb-md-0">
+                                        <h5 class="text-uppercase">Links</h5>
+
+                                        <ul class="list-unstyled mb-0">
+                                            <li>
+                                                <a class="text-white" href="#map">Venues</a>
+                                            </li>
+                                            <li>
+                                                <a class="text-white" href="#servicess">services</a>
+                                            </li>
+                                            <!-- <li>
+                                            <a class="text-white" href="#!">Link 1</a>
+                                        </li>
+                                        <li>
+                                            <a class="text-white" href="#!">Link 1</a>
+                                        </li> -->
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </section>
+
+                        </div>
+
+                        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+                            © 2020 Copyright:
+                            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">PrimeEvents.com</a>
+                        </div>
+                        <!-- Copyright -->
+                    </footer>
+                    <!-- Footer -->
+                </div>
+            </div>
+
+        </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
